@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+<h1 class = "contact-heading">Send me a message!</h1>
+<form class = "item" action = "/contact" method = "post">
+    <div class = "form-group">
+        <h3 class = "contact-heading">Title</h3>
+        <input class = "form-control" type = "text" name="composeTitle">
+    </div>
+
+    <div class = "form-group">
+        <input class = "form-control" type = "text" name="composeTitle" placeholder = "Email">
+    </div>
+    
+    <div class = "form-group">
+        <textarea class = "form-control" rows="4" type = "text" name="composePost" placeholder = "Please insert your comments here!"></textarea>
+    </div>
+
+    <button class="btn btn-primary" type="Submit">Submit Info</button>
+</form>
+
+<%- include("partials/footer"); -%>
