@@ -1,0 +1,64 @@
+<%- include("partials/header"); -%>
+
+  <!--Quick introduction-->
+  <div id= "welcome-section">
+    <h1>Hello There! </h1>
+    <h1>My name is Alex Lee!</h1>
+    <p>I'm an aspiring Full-Stack Developer that's based out of New York City, and thank you for checking out my portfolio!</p>
+  </div>
+
+  <!--Personal introduction-->
+  <div id = "personal-section">
+    <div class = "biography">
+      <img id = "portrait" src= "/photos/portfolio_bw.png" alt="brand logo">
+      <div class = "about_me">
+        <p>I previously came from an Operations & Project Management background. Technology has always been an interest and I wanted to find a way to be creative and build new things! See my growth as a software engineer below</p>
+        <h2>I am currently coding or learning the following:</h2>
+        <ul class = "language_list">
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript (ES6)</li>
+          <li>jQuery</li>
+          <li>Node.js and Express.js</li>
+          <li>SQL</li>
+          <li>MongoDB and Mongoose</li>
+          <li>React & Redux</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div id = "projects-section">
+    <h2>Here are some projects that I've worked on.</h2>
+    <div class = "projects">
+      <div class = "project-content">
+        <h3 class = "project-heading">Twiddler</h3>
+        <p>This is a project that I've worked on the Front-End Development for a precourse assignment at bootcamp.</p>
+        <ul class = "coding-list">
+          <li class = "languages">JavaScript</li>
+          <li class = "languages">jQuery</li>
+        </ul>
+        <a class = "project-links" title="Github" href="https://github.com/acerslee/personal-portfolio" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <img class = "project-images" src  = "/photos/projects/twiddler.png" alt="twiddler">
+    </div>
+  </div>
+
+  <!--FOOTER SECTION GOES HERE-->
+
+  <%- include("partials/footer"); -%>
+
+  <!-- LOADING HTML BELOW-->
+  <!-- <div class = "loader-wrapper">
+    <span class = "loader"><span class = "loader-inner"></span></span>
+  </div> -->
+
+  <script src="/javascript/query.js"></script>
+
+  <!--LOADING SCRIPT BELOW-->
+  <!-- <script>
+    $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script> -->
+
