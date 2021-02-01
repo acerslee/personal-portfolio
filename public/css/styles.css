@@ -94,10 +94,10 @@ font-family:"Roboto Slab',serif;
 }
 
 .menu{
-  width:30px;
-  height:5px;
+  width:6rem;
+  height:1rem;
   background-color:white;
-  margin: 5px 0;
+  margin: 1rem 0;
 }
 
 @media screen and (max-width:1000px){
@@ -177,8 +177,8 @@ h1{
 /*Personal section */
 
 #personal-section{
-  height:600px;
-  padding-top:20px;
+  height:70rem;
+  padding-top:5rem;
 }
 
 .biography{
@@ -187,8 +187,8 @@ h1{
 }
 
 #portrait{
-  width:400px;
-  height:400px;
+  width:45rem;
+  height:45rem;
   margin: 0 4rem 0 2rem;
   float:left;
 }
@@ -246,7 +246,7 @@ h2{
 /* Closing section */
 
 #closer{
-  padding-top:10px;
+  padding-top:2rem;
   width:80%;
   margin: 0 auto 0 auto;
   text-align:center;
@@ -276,9 +276,3 @@ h2{
   text-align: center;
 }
 
-/*CONTACT PAGE ONLY */
-
-.contact-heading{
-  margin:0;
-  color:white;
-}
